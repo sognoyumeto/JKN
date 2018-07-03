@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BB7522820EB3A65007E518D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8843620D420D8008BAB52 /* ViewController.swift */; };
 		8BB8843520D420D8008BAB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8843420D420D8008BAB52 /* AppDelegate.swift */; };
-		8BB8843720D420D8008BAB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8843620D420D8008BAB52 /* ViewController.swift */; };
 		8BB8843A20D420D8008BAB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8843820D420D8008BAB52 /* Main.storyboard */; };
 		8BB8843D20D420D8008BAB52 /* jkn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8843B20D420D8008BAB52 /* jkn.xcdatamodeld */; };
 		8BB8843F20D420D9008BAB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8843E20D420D9008BAB52 /* Assets.xcassets */; };
@@ -100,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				8BB8843420D420D8008BAB52 /* AppDelegate.swift */,
-				8BB8843620D420D8008BAB52 /* ViewController.swift */,
 				8BB8843820D420D8008BAB52 /* Main.storyboard */,
 				8BB8843E20D420D9008BAB52 /* Assets.xcassets */,
 				8BB8844020D420D9008BAB52 /* LaunchScreen.storyboard */,
@@ -113,6 +112,7 @@
 		8BB8844B20D420D9008BAB52 /* jknTests */ = {
 			isa = PBXGroup;
 			children = (
+				8BB8843620D420D8008BAB52 /* ViewController.swift */,
 				8BB8844C20D420D9008BAB52 /* jknTests.swift */,
 				8BB8844E20D420D9008BAB52 /* Info.plist */,
 			);
@@ -260,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB8843D20D420D8008BAB52 /* jkn.xcdatamodeld in Sources */,
-				8BB8843720D420D8008BAB52 /* ViewController.swift in Sources */,
 				8BB8843520D420D8008BAB52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB7522820EB3A65007E518D /* ViewController.swift in Sources */,
 				8BB8844D20D420D9008BAB52 /* jknTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
